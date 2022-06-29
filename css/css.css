@@ -1,0 +1,80 @@
+html, body, header, main {
+    font-family: "Elice Digital Baeum",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 20px;
+}
+
+nav {
+    background-color: slategrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    margin-left: -40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: grey;
+    letter-spacing: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+img {
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+#skill a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+#skill a:hover {
+    color: slategrey;
+    background-color: pink;
+}
+
+
+div.container section {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+
+footer p {
+    clear: both;
+    background-color: slategrey;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+/*숙제*/
+@media (max-width: 800px) {
+    /*가운데 정렬*/
+    /*그리드 정렬 대신 되돌리기 숙제*/
+}
